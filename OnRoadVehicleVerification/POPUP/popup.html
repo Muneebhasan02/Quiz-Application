@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup</title>
+</head>
+<style>
+.container{
+    margin: 0 auto;
+    background-color: lightcoral;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+}
+.header{
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+<body>
+    <button id="btn">CLick Me</button>
+    <div class="container" id="container">
+        <div class="header">
+            <h2>This is heading</h2>
+        </div>
+        <div class="content">
+            <button>Click Me</button>
+        </div>
+    </div>
+<script>
+    let box = document.getElementById("container");
+    let btn = document.getElementById("btn");
+    btn.onclick = function(){
+        box.style.display = "flex";
+        box.style.flexDirection = 'column';
+    }
+</script>
+</body>
+</html>

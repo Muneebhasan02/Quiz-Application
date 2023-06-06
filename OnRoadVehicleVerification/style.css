@@ -1,0 +1,177 @@
+body{
+    /* background: "background.jpg"; */
+    font-family: "Comme";
+}
+.header {
+    background-color:transparent;
+    color: #fff;
+    padding: 10px;
+  }
+
+  /* Style the navigation menu */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+
+  nav li {
+    float: right;
+    
+  }
+
+  nav li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav li a:hover {
+    background-color:lightgrey;
+  }
+  h2{
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .container{
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 800px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    border-radius: 10px;
+  }
+
+  .left{
+    margin: 0 auto;
+    width: 50%;
+    height: 300px;
+    background: url(signin.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.input_box{
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 5px;
+    height: 30px;
+}
+button{
+  width: 100px;
+  height: 600px;
+  height: 30px;
+}
+
+.functionalities{
+    margin: 0 auto;
+    width: 900px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 210px 210px 210px 210px;
+    /* border: 2px solid black; */
+}
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 210px;
+    height: 180px;
+    /* border: 2px solid red; */
+}
+.verf {
+    line-height: 20;
+    text-align: center;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    background: url(verf.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:180px 120px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    align-self: center;
+}
+.token_verf {
+  line-height: 21;
+  text-align: center;
+  display: inline-block;
+  width: 180px;
+  height: 200px;
+  background: url(token.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:180px 120px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  align-self: center;
+}
+.smart_card{
+  line-height: 21;
+  text-align: center;
+  display: inline-block;
+  width: 180px;
+  height: 200px;
+  background: url(smartcard.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:170px 100px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  align-self: center;
+}
+.vehicle_chalan{
+  line-height: 21;
+  text-align: center;
+  display: inline-block;
+  width: 180px;
+  height: 200px;
+  background: url(chalan.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:170px 100px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  align-self: center;
+}
+.t_chalan{
+  line-height: 21;
+  text-align: center;
+  display: inline-block;
+  width: 180px;
+  height: 200px;
+  background: url(transfer.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:170px 100px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  align-self: center;
+}
+.vehicle_reg{
+  line-height: 21;
+  text-align: center;
+  display: inline-block;
+  width: 180px;
+  height: 200px;
+  background: url(reg.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:170px 100px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  align-self: center;
+}
